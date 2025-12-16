@@ -1,0 +1,59 @@
+body {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  background:#0b0f1a;
+  color:#eaeef6;
+}
+
+h1 {
+  margin: 0;
+  font-size: 44px;
+  letter-spacing: 0.5px;
+}
+
+.sub {
+  color:#a9b4d0;
+  margin-top: 8px;
+}
+
+.card {
+  background:#121a2b;
+  border:1px solid #1e2a44;
+  border-radius:16px;
+  padding:16px;
+}
+
+.row { display:flex; gap:16px; }
+.col { flex:1; }
+label { color:#a9b4d0; font-weight:600; }
+/* Page container */
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* Filter bar row */
+.filters {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+/* Charts grid (2 columns) */
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-items: start;
+}
+
+/* Force graphs to have a fixed height */
+.graph {
+  height: 420px;
+}
+
+/* Make sure the Graph component uses that height */
+.graph > div {
+  height: 100% !important;
+}
