@@ -10,7 +10,7 @@ Built with **Python, Dash, Plotly**, and lineup-level NBA data.
 
 ---
 
-## 🔍 What this app does
+##  What this app does
 
 ### Lineups Tab
 - Visualizes chemistry (NET rating) vs usage (minutes)
@@ -35,7 +35,7 @@ Built with **Python, Dash, Plotly**, and lineup-level NBA data.
 
 ---
 
-## 🧠 Why this matters
+##  Why this matters
 
 This dashboard is designed to feel less like “analytics for analytics’ sake” and more like:
 > **“What should we try next — and what should we avoid?”**
@@ -44,7 +44,7 @@ It’s meant to support rotation decisions, lineup experimentation, and film rev
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 - Python
 - Dash
 - Plotly
@@ -53,7 +53,7 @@ It’s meant to support rotation decisions, lineup experimentation, and film rev
 
 ---
 
-## 🚀 Future Work
+##  Future Work
 - Game-by-game chemistry trends
 - Contextual filters (score margin, opponent, quarter)
 - Player role tagging (initiator, spacer, rim protector)
