@@ -17,7 +17,7 @@ DATA_PATH = BASE_DIR / "data" / "wizards_lineups_2025_26.csv"
 
 app = Dash(__name__)
 app.title = "Wizards Chemistry Dashboard"
-
+server = app.server
 # ----------------------------
 # Data helpers
 # ----------------------------
