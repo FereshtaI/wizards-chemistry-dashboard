@@ -1097,3 +1097,6 @@ if __name__ == "__main__":
     app.run(debug=True)
     port = int(os.environ.get("PORT", 8050))
     app.run(debug=False, host="0.0.0.0", port=port)
+    app = Dash(__name__)
+    server = app.server
+
