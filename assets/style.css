@@ -35,7 +35,7 @@ label { color:#a9b4d0; font-weight:600; }
 /* Filter bar row */
 .filters {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2fr 1fr 1.2fr;
   gap: 16px;
   margin-bottom: 16px;
 }
@@ -56,4 +56,74 @@ label { color:#a9b4d0; font-weight:600; }
 /* Make sure the Graph component uses that height */
 .graph > div {
   height: 100% !important;
+}
+/* Fix dropdown text colors */
+.Select-control {
+  background-color: #ffffff !important;
+  color: #111827 !important;
+}
+
+.Select-menu-outer {
+  background-color: #ffffff !important;
+  color: #111827 !important;
+}
+
+.Select-option {
+  color: #111827 !important;
+}
+
+.Select-option.is-focused {
+  background-color: #e5e7eb !important;
+}
+
+.Select-value-label {
+  color: #111827 !important;
+}
+/* nicer dropdown */
+.dropdown .Select-control {
+  background: #ffffff !important;
+  border-radius: 12px !important;
+  border: 1px solid #cbd5e1 !important;
+  min-height: 44px !important;
+}
+.dropdown .Select-placeholder,
+.dropdown .Select-value-label {
+  color: #0b1220 !important;
+  font-weight: 600;
+}
+.dropdown .Select-menu-outer {
+  max-height: 260px !important;
+  border-radius: 12px !important;
+}
+.dropdown .Select-menu {
+  max-height: 260px !important;
+}
+.dropdown .Select-option {
+  color: #0b1220 !important;
+}
+.dropdown .Select-option.is-focused {
+  background: #e2e8f0 !important;
+}
+.dropdown .Select-option.is-selected {
+  background: #cbd5e1 !important;
+}
+
+.hint {
+  margin-top: 8px;
+  color: #a9b4d0;
+  font-size: 12px;
+}
+/* Make tab text readable on the white tab bar */
+.tab {
+  color: #0b1220 !important;
+  font-weight: 600;
+}
+
+.tab--selected {
+  color: #0b1220 !important;
+  font-weight: 800;
+}
+
+.tab:hover {
+  color: #0b1220 !important;
 }
