@@ -9,7 +9,11 @@ import plotly.express as px
 import plotly.graph_objects as go
 import networkx as nx
 
-DATA_PATH = "data/wizards_lineups_2025_26.csv"
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+DATA_PATH = BASE_DIR / "data" / "wizards_lineups_2025_26.csv"
+
 
 app = Dash(__name__)
 app.title = "Wizards Chemistry Dashboard"
